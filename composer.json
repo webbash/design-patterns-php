@@ -1,0 +1,15 @@
+{
+    "name": "webbash/design-patterns-php",
+    "authors": [
+        {
+            "name": "Denis",
+            "email": "denis.lukhmanov@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AbstractFactory\\": "AbstractFactory"
+        }
+    }
+}
