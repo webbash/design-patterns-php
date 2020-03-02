@@ -13,15 +13,15 @@ interface MultimediaSystemFactoryInterface
     /**
      * @return MonitorInterface
      */
-    public function createMonitor(): MonitorInterface;
+    public function getMonitor(): MonitorInterface;
 
     /**
      * @return SpeakerInterface
      */
-    public function createSpeaker(): SpeakerInterface;
+    public function getSpeaker(): SpeakerInterface;
 
     /**
      * @return SubwooferInterface
      */
-    public function createSubwoofer(): SubwooferInterface;
+    public function getSubwoofer(): SubwooferInterface;
 }

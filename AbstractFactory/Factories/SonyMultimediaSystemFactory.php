@@ -11,11 +11,10 @@ use AbstractFactory\MultimediaSystems\{MonitorInterface, SpeakerInterface, Subwo
  */
 class SonyMultimediaSystemFactory implements MultimediaSystemFactoryInterface
 {
-
     /**
      * @return MonitorInterface
      */
-    public function createMonitor(): MonitorInterface
+    public function getMonitor(): MonitorInterface
     {
         return new SonyMonitor();
     }
@@ -23,7 +22,7 @@ class SonyMultimediaSystemFactory implements MultimediaSystemFactoryInterface
     /**
      * @return SpeakerInterface
      */
-    public function createSpeaker(): SpeakerInterface
+    public function getSpeaker(): SpeakerInterface
     {
         return new SonySpeaker();
     }
@@ -31,7 +30,7 @@ class SonyMultimediaSystemFactory implements MultimediaSystemFactoryInterface
     /**
      * @return SubwooferInterface
      */
-    public function createSubwoofer(): SubwooferInterface
+    public function getSubwoofer(): SubwooferInterface
     {
         return new SonySubwoofer();
     }

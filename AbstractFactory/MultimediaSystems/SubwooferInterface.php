@@ -8,5 +8,5 @@ namespace AbstractFactory\MultimediaSystems;
  */
 interface SubwooferInterface
 {
-    public function getCharacteristics(): array ;
+    public function getCharacteristics(): array;
 }

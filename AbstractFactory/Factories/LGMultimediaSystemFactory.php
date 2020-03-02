@@ -14,7 +14,7 @@ class LGMultimediaSystemFactory implements MultimediaSystemFactoryInterface
     /**
      * @return MonitorInterface
      */
-    public function createMonitor(): MonitorInterface
+    public function getMonitor(): MonitorInterface
     {
         return new LGMonitor();
     }
@@ -22,7 +22,7 @@ class LGMultimediaSystemFactory implements MultimediaSystemFactoryInterface
     /**
      * @return SpeakerInterface
      */
-    public function createSpeaker(): SpeakerInterface
+    public function getSpeaker(): SpeakerInterface
     {
         return new LGSpeaker();
     }
@@ -30,7 +30,7 @@ class LGMultimediaSystemFactory implements MultimediaSystemFactoryInterface
     /**
      * @return SubwooferInterface
      */
-    public function createSubwoofer(): SubwooferInterface
+    public function getSubwoofer(): SubwooferInterface
     {
         return new LGSubwoofer();
     }

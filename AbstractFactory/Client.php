@@ -38,9 +38,9 @@ class Client
     {
         $this->factory = $factory;
 
-        $this->monitor = $this->factory->createMonitor();
-        $this->speaker = $this->factory->createSpeaker();
-        $this->subwoofer = $this->factory->createSubwoofer();
+        $this->monitor = $this->factory->getMonitor();
+        $this->speaker = $this->factory->getSpeaker();
+        $this->subwoofer = $this->factory->getSubwoofer();
     }
 
     /**
