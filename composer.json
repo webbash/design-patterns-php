@@ -6,10 +6,13 @@
             "email": "denis.lukhmanov@mail.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "maknz/slack": "^1.7"
+    },
     "autoload": {
         "psr-4": {
-            "AbstractFactory\\": "AbstractFactory"
+            "AbstractFactory\\": "AbstractFactory",
+            "Decorator\\": "Decorator"
         }
     }
 }
